@@ -8,7 +8,7 @@ import { Appointment } from '../models/appointment';
 })
 export class AppointmentListComponent implements OnInit {
   
-  title: string = "Todo list";
+  title: string = "Appointment list";
   
   newAppointmentTitle: string = "";
   newAppointmentDate: Date = new Date();
